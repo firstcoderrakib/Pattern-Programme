@@ -10,6 +10,15 @@ namespace PatternProgramming
     {
         static void Main(string[] args)
         {
+
+            //Pattern Programming 
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4 
+            //1 2 3 4 5
+
+
             int n=5, row, col;
             
             for (row = 1; row <= n; row++)
