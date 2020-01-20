@@ -17,7 +17,7 @@ namespace PatternProgramming
             //1 2 3
             //1 2 3 4 
             //1 2 3 4 5
-
+            /*
 
             int n=5, row, col;
             
@@ -31,6 +31,23 @@ namespace PatternProgramming
                 Console.WriteLine("\n");
             }
             Console.ReadKey();
+            */
+
+
+
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write(row);
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+
         }
     }
 }
