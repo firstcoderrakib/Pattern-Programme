@@ -122,7 +122,7 @@ namespace PatternProgramming
             //C C C
             //D D D D
             //E E E E E
-
+            /*
             int n = 5, row, col;
 
             for (row = 1; row <= n; row++)
@@ -135,7 +135,48 @@ namespace PatternProgramming
                 Console.WriteLine("\n");
             }
             Console.ReadKey();
+            */
 
+            //Pattern Programming-7
+            //a
+            //a b
+            //a b c
+            //a b c d
+            //a b c d e
+            /*
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 96));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-8
+            //a
+            //b b
+            //c c c
+            //d d d d
+            //e e e e e
+            /*
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(row + 96));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
         }
     }
 }
