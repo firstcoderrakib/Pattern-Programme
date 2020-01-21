@@ -30,7 +30,7 @@ namespace pattern_Programme_2
             }
             Console.ReadKey();
             */
-            //Pattern Programming-1
+            //Pattern Programming-2
             //5 5 5 5 5 
             //4 4 4 4
             //3 3 3 
@@ -50,6 +50,87 @@ namespace pattern_Programme_2
             }
             Console.ReadKey();
             */
+            //Pattern Programming-3
+            //1 0 1 0 1
+            //1 0 1 0 
+            //1 0 1
+            //1 0
+            //1
+            /*
+            int n = 5, row, col;
+
+            for (row = n; row >= 1; row--)
+            {
+                for (col = row; col >= 1; col--)
+                {
+                    Console.Write(col % 2);
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-4
+            //1 1 1 1 1
+            //0 0 0 0
+            //1 1 1
+            //0 0 
+            //1
+            /*
+            int n = 5, row, col;
+
+            for (row = n; row >= 1; row--)
+            {
+                for (col = row; col >= 1; col--)
+                {
+                    Console.Write(row % 2);
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+
+            //Pattern Programming-5
+            //A B C D E
+            //A B C D
+            //A B C
+            //A B
+            //A
+            /*
+            int n = 5, row, col;
+
+            for (row = n; row >= 1; row--)
+            {
+                for (col = row; col >= 1; col--)
+                {
+                    Console.Write((char)(col + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-6
+            //E E E E E
+            //D D D D
+            //C C C
+            //B B
+            //A
+            ///*
+            int n = 5, row, col;
+
+            for (row = n; row >= 1; row--)
+            {
+                for (col = row; col >= 1; col--)
+                {
+                    Console.Write((char)(row + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            //*/
         }
     }
 }
