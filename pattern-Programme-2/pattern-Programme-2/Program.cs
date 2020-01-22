@@ -178,7 +178,7 @@ namespace pattern_Programme_2
             //* * *
             //* *
             //*
-            ///*
+            /*
             int n = 5, row, col;
 
             for (row = n; row >= 1; row--)
@@ -186,6 +186,27 @@ namespace pattern_Programme_2
                 for (col = 1; col <= row; col++)
                 {
                     Console.Write("*");
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+
+            //Pattern Programming-10
+            //# # # # #
+            //# # # # 
+            //# # #
+            //# #
+            //#
+            ///*
+            int n = 5, row, col;
+
+            for (row = n; row >= 1; row--)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write("#");
                 }
 
                 Console.WriteLine("\n");
