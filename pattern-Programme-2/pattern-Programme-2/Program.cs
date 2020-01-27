@@ -188,7 +188,7 @@ namespace pattern_Programme_2
                     Console.Write("*");
                 }
 
-                Console.WriteLine("\n");
+                Console.WriteLine("\n");  
             }
             Console.ReadKey();
             */
