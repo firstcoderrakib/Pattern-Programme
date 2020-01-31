@@ -120,7 +120,7 @@ namespace PatternProgramme_3
             //C C C 
             //B B 
             //A
-
+            /*
             int n = 5, row, col;
 
             for (row = 1; row <= n; row++)
@@ -137,6 +137,72 @@ namespace PatternProgramme_3
                 for (col = 1; col <= row; col++)
                 {
                     Console.Write((char)(row + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-1
+            //a
+            //b b 
+            //c c c
+            //d d d d
+            //e e e e e
+            //d d d d
+            //c c c 
+            //b b 
+            //a
+            /*
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 96));
+                }
+
+                Console.WriteLine("\n");
+            }
+            for (row = n - 1; row >= 1; row--)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 96));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-1
+            //a
+            //a b 
+            //a b c
+            //a b c d
+            //a b c d e
+            //a b c d
+            //a b c 
+            //a b 
+            //a
+
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 96));
+                }
+
+                Console.WriteLine("\n");
+            }
+            for (row = n - 1; row >= 1; row--)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 96));
                 }
 
                 Console.WriteLine("\n");
