@@ -54,7 +54,7 @@ namespace PatternProgramme_3
             //3 3 3 
             //2 2
             //1
-
+            /*
             int n = 5, row, col;
 
                 for (row = 1; row <= n; row++)
@@ -76,8 +76,72 @@ namespace PatternProgramme_3
                     Console.WriteLine("\n");
                 }
                 Console.ReadKey();
-            
-           
+            */
+            //Pattern Programming-1
+            //A 
+            //A B
+            //A B C 
+            //A B C D 
+            //A B C D E 
+            //A B C D 
+            //A B C 
+            //A B 
+            //A
+            /*
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            for (row = n - 1; row >= 1; row--)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(col + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+            //Pattern Programming-1
+            //A 
+            //B B
+            //C C C 
+            //D D D D 
+            //E E E E E 
+            //D D D D 
+            //C C C 
+            //B B 
+            //A
+
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(row + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            for (row = n - 1; row >= 1; row--)
+            {
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write((char)(row + 64));
+                }
+
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
         }
     }
 }
