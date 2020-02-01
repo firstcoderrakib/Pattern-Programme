@@ -11,12 +11,14 @@ namespace patterprogramme_4
         static void Main(string[] args)
         {
 
-            //Pattern Programming-5
+            //Pattern Programming-1
             //        1
             //      2 1
             //    3 2 1
             //  4 3 2 1
             //5 4 3 2 1
+
+            /*
             int n = 5, row, col;
 
             for (row = 1; row <= n; row++)
@@ -28,6 +30,30 @@ namespace patterprogramme_4
                 for (col = 1; col <=row; col++)
                 {
                     Console.Write(col);
+                }
+                Console.WriteLine("\n");
+            }
+            Console.ReadKey();
+            */
+
+            //Pattern Programming-1
+            //        1
+            //      2 2
+            //    3 3 3
+            //  4 4 4 4
+            //5 5 5 5 5
+
+            int n = 5, row, col;
+
+            for (row = 1; row <= n; row++)
+            {
+                for (col = 1; col <= n - row; col++)
+                {
+                    Console.Write(" ");
+                }
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write(row);
                 }
                 Console.WriteLine("\n");
             }
